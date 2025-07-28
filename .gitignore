@@ -1,0 +1,171 @@
+# Operating System Files
+# =======================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Editor and IDE Files
+# ====================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swn
+.*.swp
+.*.swo
+.*.swn
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# Documentation Build Artifacts
+# =============================
+
+# MkDocs
+site/
+.cache/
+
+# Sphinx
+_build/
+build/
+*.doctree
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Hugo
+public/
+resources/
+
+# GitBook
+_book/
+book.pdf
+book.epub
+book.mobi
+
+# Node.js (if using documentation tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+
+# Python (if using documentation tools)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temporary Files
+# ===============
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.orig
+.tmp/
+
+# Archive and Compressed Files
+# ============================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Image Thumbnails
+# ================
+Thumbs.db
+.thumbnails/
+
+# Project Specific
+# ================
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Generated files
+*.generated.md
+generated/
+
+# Personal notes (if any)
+personal-notes/
+.notes/
+TODO.md
+todo.txt
+
+# Backup files
+backup/
+*.backup
+
+# Draft documents
+drafts/
+*.draft.md
+
+# Build or distribution directories
+dist/
+out/
