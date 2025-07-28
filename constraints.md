@@ -3,8 +3,8 @@
 ## Technical Constraints
 
 ### Hard Requirements
-- **Python 3.11+** - Latest stable Python for modern async features
-- **PostgreSQL 15+** - One database instance per service
+- **Python 3.13+** - Latest stable Python for modern async features (see [technology-stack.md](architecture/technology-stack.md))
+- **PostgreSQL 17+** - One database instance per service
 - **Docker 24+** - Container runtime requirement
 - **Linux/macOS** - Development environment (Windows via WSL2)
 - **16GB RAM minimum** - For running all services locally

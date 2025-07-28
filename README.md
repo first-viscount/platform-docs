@@ -47,12 +47,14 @@ This documentation guides the development of a microservices-based e-commerce pl
 
 ## 🛠 Technology Stack
 
-- **Language**: Python 3.11+ with FastAPI
+- **Language**: Python 3.13+ with FastAPI
 - **Message Broker**: Redpanda (Kafka-compatible)
 - **Databases**: PostgreSQL (one per service)
 - **Service Mesh**: Traefik
 - **Containers**: Docker & Docker Compose
 - **Orchestration**: K3s (future)
+
+For detailed version information, see [technology-stack.md](./architecture/technology-stack.md).
 
 ## 📋 Development Approach
 
@@ -90,7 +92,7 @@ github.com/first-viscount/
 
 ### Prerequisites
 - Docker Desktop
-- Python 3.11+
+- Python 3.13+
 - 16GB RAM minimum
 - Git
 

@@ -1,5 +1,7 @@
 # Architecture Decisions Log
 
+For current technology versions and compatibility information, see [technology-stack.md](architecture/technology-stack.md).
+
 ## Decision Template
 ```
 Decision: [Title]
